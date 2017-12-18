@@ -1,0 +1,15 @@
+
+<h1>
+  {{title}}
+</h1>
+ 
+<p>Navigation:
+  <a [routerLink]="['/']">Home</a>
+  <a [routerLink]="['first/first-page']">First Page</a>
+  <a [routerLink]="['second/second-page']">Second Page</a>
+  <a [routerLink]="['third']">third Page</a>
+</p>
+ 
+<h3>Current Route:</h3>
+ 
+<router-outlet></router-outlet>
